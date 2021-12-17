@@ -1,3 +1,5 @@
+// ----------------------------------------------------------------------------
+// login med kode "kea"
 class Login extends HTMLElement {
   constructor() {
     super();

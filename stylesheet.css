@@ -1,3 +1,69 @@
 * {
   box-sizing: border-box;
 }
+
+/* --------------------------------------- */
+/* menu */
+.banner {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+a {
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+}
+
+/* --------------------------------------- */
+/* farve på hover */
+a:hover {
+}
+
+.banner ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+/* --------------------------------------- */
+/* burgermenu */
+.toggle-btn {
+  display: none;
+  color: rgb(5, 5, 5);
+}
+
+/* --------------------------------------- */
+/* mobile */
+@media (max-width: 600px) {
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    display: block;
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.shown {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: column;
+  }
+}

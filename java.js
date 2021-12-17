@@ -1,5 +1,5 @@
-// Burgermenu
 // ----------------------------------------------------------------------------
+// Burgermenu
 // Lav en variabel, der refererer til ".toggle-btn"
 const btn = document.querySelector(".toggle-btn");
 // Lav en variabel, der refererer til "nav"
