@@ -7,6 +7,26 @@ h2,
 h3,
 p {
   text-decoration: none;
+  font-family: "Quattrocento Sans", sans-serif;
+  line-height: 1.2rem;
+}
+/* --------------------------------------- */
+/* fontsize */
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
 }
 
 /* --------------------------------------- */
@@ -102,4 +122,12 @@ header {
   background: transparent;
   justify-content: space-between;
   align-items: center;
+}
+
+/* --------------------------------------- */
+/* footer */
+footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
 }
