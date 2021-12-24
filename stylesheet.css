@@ -78,8 +78,8 @@ a:hover {
 @media (min-width: 600px) {
   #index_first_section .section_wrapper {
     text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
   }
 }
 
@@ -156,7 +156,7 @@ footer {
   background-color: #cacaca;
   border: none;
   color: white;
-  padding: 10px 30px;
+  padding: 10px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -170,15 +170,23 @@ footer {
 }
 
 .tema2 {
-  border-radius: 4px;
+  border-radius: 10px;
 }
 .tema3 {
-  border-radius: 4px;
+  border-radius: 10px;
 }
 .tema4 {
-  border-radius: 4px;
+  border-radius: 10px;
 }
 .tema5 {
-  border-radius: 4px;
+  border-radius: 10px;
 }
+
 /* --------------------------------------- */
+/* hr */
+hr {
+  border: 0;
+  border-top: 1px solid #cacaca;
+  margin-left: 30rem;
+  margin-right: 30rem;
+}
