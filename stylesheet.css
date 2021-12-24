@@ -230,3 +230,14 @@ hr {
   margin-left: 30rem;
   margin-right: 30rem;
 }
+
+/* --------------------------------------- */
+/* vertical line */
+.vl {
+  border: 0;
+  border-left: 1px solid #cacaca;
+  height: 39rem;
+  position: absolute;
+  left: 47%;
+  top: 10rem;
+}
