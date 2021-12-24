@@ -86,6 +86,10 @@ a:hover {
     margin-left: 25rem;
     margin-right: 25rem;
   }
+
+  #index_third_section .section_wrapper h1 {
+    font-size: 4rem;
+  }
 }
 
 /* --------------------------------------- */
