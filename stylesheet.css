@@ -76,13 +76,13 @@ a:hover {
 /* --------------------------------------- */
 /* design på sections */
 @media (min-width: 600px) {
-  #index_second_section .section_wrapper {
+  #index_third_section .section_wrapper {
     text-align: center;
     /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; */
   }
 
-  #index_second_section p {
+  #index_third_section p {
     margin-left: 25rem;
     margin-right: 25rem;
   }
