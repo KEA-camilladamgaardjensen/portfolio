@@ -118,6 +118,9 @@ a:hover {
 
   #cv_first_section {
     text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
     /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; */
   }
@@ -127,15 +130,26 @@ a:hover {
     margin-right: 25rem;
   }
 
-  #cv_first_section .section_wrapper h1 {
-    font-size: 4rem;
-  }
-
   #cv_second_section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 10rem;
-    margin-top: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #cv_third_section {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+  }
+
+  #cv_third_section p {
+    margin-left: 25rem;
+    margin-right: 25rem;
   }
 }
 
