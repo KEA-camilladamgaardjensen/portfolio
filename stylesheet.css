@@ -174,16 +174,24 @@ a:hover {
     margin-right: 25rem;
   }
 
-  /* #tema2_second_section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 10rem;
-    margin-top: 10rem;
-  } */
-
   #tema2_second_section p {
     text-align: left;
     margin-right: 50rem;
+  }
+
+  #tema2_third_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10rem;
+    margin-top: 5rem;
+  }
+
+  #tema2_third_section img {
+    max-width: 70%;
+  }
+
+  #tema2_third_section .section_wrapper {
+    margin-top: 4rem;
   }
 }
 
