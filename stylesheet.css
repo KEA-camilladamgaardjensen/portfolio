@@ -97,7 +97,7 @@ a:hover {
 
 /* --------------------------------------- */
 /* design på sections */
-@media (min-width: 600px) {
+@media (min-width: 1200px) {
   /* --------------------------------------- */
   /* vertical line */
   .vl {
@@ -255,7 +255,7 @@ a:hover {
 
 /* --------------------------------------- */
 /* mobile */
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
   .toggle-btn {
     background: transparent;
     border: none;
