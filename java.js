@@ -30,7 +30,7 @@ btn.addEventListener("click", toggleMenu);
 
 // ----------------------------------------------------------------------------
 // To top button
-//Get the button
+// Get the button
 var mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
@@ -51,3 +51,9 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+// ----------------------------------------------------------------------------
+// link
+
+// let btn = document.createElement("button");
+// btn.innerHTML = "se";
+// document.body.appendChild(btn);

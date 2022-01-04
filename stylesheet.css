@@ -373,6 +373,18 @@ p {
   border-radius: 10px;
 }
 
+.prototype {
+  border-radius: 10px;
+}
+.spil {
+  border-radius: 10px;
+}
+.pilot {
+  border-radius: 10px;
+}
+.redesign {
+  border-radius: 10px;
+}
 /* --------------------------------------- */
 /* hr */
 hr {
@@ -398,6 +410,7 @@ hr {
   border-radius: 4px;
   text-decoration: none;
   font-family: "Abel", sans-serif;
+  border-radius: 10px;
 }
 
 /* #myBtn:hover {
