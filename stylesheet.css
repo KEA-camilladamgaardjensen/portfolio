@@ -23,6 +23,10 @@ img {
   display: block;
 }
 
+/* img:hover {
+  color: black;
+} */
+
 /* --------------------------------------- */
 /* fontsize */
 
@@ -43,6 +47,7 @@ h3 {
   margin-right: 5rem;
   font-size: 1.25rem;
 }
+
 h4 {
   margin-left: 5rem;
   margin-right: 5rem;
@@ -103,6 +108,7 @@ a:hover {
     line-height: 2rem;
   }
 }
+
 /* --------------------------------------- */
 /* design på sections */
 @media (min-width: 1200px) {
@@ -116,6 +122,7 @@ a:hover {
     left: 47%;
     top: 15rem;
   }
+
   #index_first_section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -154,6 +161,7 @@ a:hover {
     margin-left: 10rem;
     margin-right: 10rem;
   }
+
   #om_first_section .section_wrapper {
     margin-top: 2rem;
   }
@@ -206,6 +214,7 @@ a:hover {
   #tema2_first_section {
     font-size: 2.5rem;
   }
+
   #tema2_first_section .first {
     margin-top: 2rem;
   }
@@ -238,6 +247,7 @@ a:hover {
     margin-top: 5rem;
     margin-bottom: 5rem;
   }
+
   #tema2_fourth_section img {
     max-width: 70%;
     margin-right: 10rem;
@@ -250,6 +260,7 @@ a:hover {
     margin-top: 5rem;
     margin-bottom: 5rem;
   }
+
   #tema2_fifth_section img {
     max-width: 70%;
     margin-right: 10rem;
@@ -262,6 +273,7 @@ a:hover {
     margin-top: 5rem;
     margin-bottom: 5rem;
   }
+
   #tema2_sixth_section img {
     max-width: 70%;
     margin-right: 10rem;
@@ -284,12 +296,43 @@ a:hover {
   }
 
   #tema3_third_section {
-    background-color: #5a7783;
+    /* background-color: #5a7783; */
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 15rem;
+    margin-right: 5rem;
+  }
+
+  #tema3_third_section .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    /* background-color: #2196f3; */
+    /* margin-top: 5rem;
+    margin-bottom: 5rem; */
+  }
+
+  #tema3_third_section img {
+    max-width: 70%;
+    justify-content: center;
+  }
+
+  #tema3_third_section .section_wrapper1 {
+    margin-top: 5rem;
+  }
+
+  /* #tema3_third_section .grid-container h3,
+  p {
+    color: #eef3f4;
+  } */
+
+  #tema3_fourth_section {
+    /* background-color: #5a7783; */
     margin-top: 5rem;
     margin-bottom: 5rem;
   }
 
-  #tema3_third_section .grid-container {
+  #tema3_fourth_section .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 5px;
@@ -303,7 +346,44 @@ a:hover {
     color: #eef3f4;
   } */
 
-  #tema3_fourth_section {
+  #tema3_fifth_section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 15rem;
+    margin-right: 5rem;
+  }
+
+  #tema3_fifth_section .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1fr 1fr;
+    grid-gap: 5px;
+    /* background-color: #2196f3; */
+    /* margin-top: 5rem;
+    margin-bottom: 5rem; */
+  }
+
+  #tema3_fifth_section img {
+    max-width: 70%;
+    justify-content: center;
+  }
+
+  #tema3_fifth_section .section_wrapper {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-bottom: 5rem;
+  }
+  #tema3_fifth_section .section_wrapper1 {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin-top: 5rem;
+  }
+  #tema3_fifth_section .section_wrapper2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  #tema3_sixth_section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 5rem;
@@ -312,7 +392,7 @@ a:hover {
     margin-right: 10rem;
   }
 
-  #tema3_fourth_section {
+  #tema3_sixth_section {
     font-size: 2.5rem;
   }
 }
@@ -481,3 +561,16 @@ hr {
   background-color: #a67744;
   background-color: #5a7783;
 } */
+
+/* #test {
+  /* background-color: #5a7783; */
+/* margin-top: 5rem;
+  margin-bottom: 5rem;
+}  */
+
+#test .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-gap: 5px; */
+  /* background-color: #2196f3; */
+}
