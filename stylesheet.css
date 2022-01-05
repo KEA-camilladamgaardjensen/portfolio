@@ -283,7 +283,13 @@ a:hover {
     margin: 10rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    text-align: center;
+    /* text-align: center; */
+    justify-content: center;
+    margin-left: 20rem;
+  }
+
+  #tema2_seven_section .section_wrapper1 {
+    margin-left: 15rem;
   }
 
   #tema3_second_section {
@@ -385,15 +391,23 @@ a:hover {
 
   #tema3_sixth_section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+  }
+
+  #tema3_sixth_section .button_prototype {
+    margin-left: 15rem;
   }
 
   #tema3_sixth_section {
     font-size: 2.5rem;
+  }
+  #tema3_sixth_section .pitch {
+    margin-top: 4rem;
   }
 }
 
