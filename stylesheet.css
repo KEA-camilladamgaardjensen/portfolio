@@ -113,6 +113,14 @@ a:hover {
   #tema4_third_section img {
     padding: 10px;
   }
+  #index_first_section img {
+    filter: grayscale(2);
+    lighting-color: white;
+  }
+
+  #index_first_section img:hover {
+    filter: grayscale(0);
+  }
 }
 
 /* --------------------------------------- */
@@ -140,7 +148,14 @@ a:hover {
   #index_first_section {
     font-size: 2.5rem;
   }
+  #index_first_section img {
+    filter: grayscale(2);
+    lighting-color: white;
+  }
 
+  #index_first_section img:hover {
+    filter: grayscale(0);
+  }
   #index_first_section .section_wrapper {
     margin-top: 5rem;
   }
@@ -418,7 +433,7 @@ a:hover {
   }
 
   #tema3_sixth_section .button_pitch {
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     margin-left: 16rem;
   }
 
@@ -538,6 +553,14 @@ a:hover {
   nav ul {
     display: flex;
     flex-flow: column;
+  }
+  #index_first_section img {
+    filter: grayscale(2);
+    lighting-color: white;
+  }
+
+  #index_first_section img:hover {
+    filter: grayscale(0);
   }
 }
 
