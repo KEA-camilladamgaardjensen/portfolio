@@ -97,7 +97,7 @@ a:hover {
 /* burgermenu */
 .toggle-btn {
   display: none;
-  color: rgb(5, 5, 5);
+  color: #354e57;
 }
 
 @media (max-width: 900px) {
