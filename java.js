@@ -5,12 +5,17 @@ const btn = document.querySelector(".toggle-btn");
 // Lav en variabel, der refererer til "nav"
 const nav = document.querySelector("nav");
 
+// Variabel der ref til body
+const body = document.querySelector("body");
+
 // Lav en function, der hedder toggleMenu()
 function toggleMenu() {
   // 1. Toggle en klasse på nav vha. classList.toggle
   // 2. Toggle en klasse, der hedder "shown"
   nav.classList.toggle("shown");
 
+  // body får overflow:hidden
+  body.classList.toggle("overflow");
   // 1. Lav en variabel, der hedder menuShown
   // 2. Den skal være lig med, om nav-variablen indeholder klassen "shown" vha. classList.contains("")
   const menuShown = nav.classList.contains("shown");

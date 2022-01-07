@@ -151,6 +151,7 @@ a:hover {
   #index_first_section img {
     filter: grayscale(2);
     lighting-color: white;
+    border-radius: 10px;
   }
 
   #index_first_section img:hover {
@@ -158,6 +159,11 @@ a:hover {
   }
   #index_first_section .section_wrapper {
     margin-top: 5rem;
+  }
+
+  #index_second_section .hr {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
 
   #index_second_section .section_wrapper {
@@ -501,7 +507,15 @@ a:hover {
     grid-row: 2/3;
   }
 
+  #tema4_fourth_section .button_spil {
+    margin-left: 10rem;
+  }
   #tema5_first_section {
+    margin-bottom: 10rem;
+    margin-right: 40rem;
+  }
+
+  #tema5_second_section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 5rem;
@@ -515,19 +529,37 @@ a:hover {
     margin-top: 2rem;
   } */
 
-  #tema5_first_section .button_pilot {
+  #tema5_second_section .button_pilot {
     display: flex;
     justify-content: center;
     margin-right: 2rem;
   }
-  #tema5_first_section .button_redesign {
+  #tema5_second_section .button_redesign {
     display: flex;
     justify-content: center;
   }
 
-  #tema5_first_section img {
+  #tema5_second_section img {
     margin-left: 3rem;
     max-width: 80%;
+  }
+
+  #tema5_second_section .vl {
+    border: 0;
+    border-left: 1px solid #cacaca;
+    height: 62rem;
+    position: absolute;
+    left: 50%;
+    top: 19rem;
+    z-index: 1;
+  }
+
+  #tema6_first_section h1,
+  #tema6_first_section p {
+    display: flex;
+    justify-content: center;
+    margin-left: 20rem;
+    margin-right: 20rem;
   }
 }
 
@@ -554,6 +586,11 @@ a:hover {
     display: flex;
     flex: 1 1 100%;
     flex-flow: column;
+    height: 100vh;
+  }
+
+  .overflow {
+    overflow: hidden;
   }
 
   nav ul {
@@ -567,6 +604,19 @@ a:hover {
 
   #index_first_section img:hover {
     filter: grayscale(0);
+  }
+
+  .menu_links {
+    font-size: 2rem;
+    font-family: "Abel", sans-serif;
+    line-height: 4rem;
+    color: #354e57;
+  }
+
+  #tema3_third_section img,
+  #tema3_fifth_section img,
+  #tema4_third_section img {
+    padding: 10px;
   }
 }
 
