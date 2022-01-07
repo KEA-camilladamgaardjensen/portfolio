@@ -508,11 +508,12 @@ a:hover {
     margin-bottom: 5rem;
     margin-left: 10rem;
     margin-right: 10rem;
+    gap: 5px;
   }
 
-  #tema5_first_section .section_wrapper {
+  /* #tema5_first_section .section_wrapper {
     margin-top: 2rem;
-  }
+  } */
 
   #tema5_first_section .button_pilot {
     display: flex;
@@ -522,6 +523,11 @@ a:hover {
   #tema5_first_section .button_redesign {
     display: flex;
     justify-content: center;
+  }
+
+  #tema5_first_section img {
+    margin-left: 3rem;
+    max-width: 80%;
   }
 }
 
