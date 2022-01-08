@@ -256,9 +256,18 @@ a:hover {
     margin-top: 2rem;
   }
 
+  #tema2_second_section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  #tema2_second_section h2,
+  #tema2_second_section h3,
   #tema2_second_section p {
-    text-align: left;
-    margin-right: 50rem;
+    /* text-align: left; */
+    /* margin-right: 50rem; */
+    margin-left: 15rem;
+    margin-right: 45rem;
   }
 
   #tema2_third_section {
