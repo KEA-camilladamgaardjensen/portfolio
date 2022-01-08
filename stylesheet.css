@@ -181,6 +181,13 @@ a:hover {
     font-size: 4rem;
   }
 
+  #first img {
+    display: flex;
+    justify-content: left;
+    margin-left: 5rem;
+    max-width: 30%;
+  }
+
   #om_first_section {
     display: grid;
     grid-template-columns: 1fr 1fr;
