@@ -76,14 +76,14 @@ p {
 }
 
 a {
-  color: rgb(8, 8, 8);
+  color: #354e57;
   text-decoration: none;
 }
 
 /* --------------------------------------- */
 /* farve på hover */
 a:hover {
-  color: rgb(8, 8, 8);
+  color: orange;
 }
 
 .banner ul {
@@ -108,9 +108,16 @@ a:hover {
     line-height: 2rem;
   }
 
-  #tema3_third_section img,
-  #tema3_fifth_section img,
-  #tema4_third_section img {
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  img {
     padding: 10px;
   }
   #index_first_section img {
@@ -120,6 +127,15 @@ a:hover {
 
   #index_first_section img:hover {
     filter: grayscale(0);
+  }
+
+  #index_second_section,
+  #om_fourth_section,
+  #tema2_third_section,
+  #tema3_fourth_section,
+  #tema4_fourth_section,
+  #tema5_second_section {
+    padding-bottom: 30px;
   }
 }
 
@@ -157,6 +173,11 @@ a:hover {
   #index_first_section img:hover {
     filter: grayscale(0);
   }
+
+  #index_first_section .tekst h1 {
+    font-size: 3rem;
+  }
+
   #index_second_section {
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -187,6 +208,8 @@ a:hover {
   }
 
   #om_first_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-top: 5rem;
     margin-bottom: 5rem;
     margin-left: 10rem;
@@ -196,9 +219,24 @@ a:hover {
   #om_first_section img {
     display: flex;
     justify-content: left;
-    margin-left: 5rem;
-    max-width: 30%;
+    margin-right: 5rem;
+    max-width: 90%;
   }
+
+  #om_first_section .tekst {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  #om_first_section .tekst h1 {
+    /* font-size: clamp(2rem, 15vw, 5rem); */
+    font-size: 5rem;
+  }
+
+  #om_first_section .tekst h2 {
+    font-size: 2rem;
+  }
+
   #om_second_section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -208,12 +246,19 @@ a:hover {
     margin-right: 10rem;
   }
 
-  #om_third_section {
+  #om_third_section h1 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 15rem;
+    margin-right: 10rem;
+  }
+
+  #om_third_section .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 10rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
 
   #om_fourth_section {
@@ -283,6 +328,16 @@ a:hover {
     max-width: 70%;
   }
 
+  #tema3_second_section .vl {
+    border: 0;
+    border-left: 1px solid #cacaca;
+    height: 28rem;
+    position: absolute;
+    left: 50%;
+    top: 26rem;
+    z-index: 1;
+  }
+
   #tema3_third_section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -301,13 +356,13 @@ a:hover {
     margin-right: 10rem;
   }
 
-  #tema3_fourth_section .button_prototype {
+  /* #tema3_fourth_section .button_prototype {
     margin-left: 5rem;
-  }
+  } */
 
-  #tema3_fourth_section .button_pitch {
+  /* #tema3_fourth_section .button_pitch {
     margin-left: 6rem;
-  }
+  } */
 
   #tema4_first_section {
     margin-top: 5rem;
@@ -348,9 +403,9 @@ a:hover {
     margin-right: 10rem;
   }
 
-  #tema4_fourth_section .button_spil {
+  /* #tema4_fourth_section .button_spil {
     margin-left: 6rem;
-  }
+  } */
 
   #tema5_first_section {
     margin-top: 5rem;
@@ -369,25 +424,25 @@ a:hover {
     gap: 5px;
   }
 
-  #tema5_second_section .button_pilot {
+  /* #tema5_second_section .button_pilot {
     display: flex;
     justify-content: center;
     margin-right: 2rem;
-  }
-  #tema5_second_section .button_redesign {
+  } */
+  /* #tema5_second_section .button_redesign {
     display: flex;
     justify-content: center;
-  }
+  } */
 
   #tema5_second_section img {
-    margin-left: 3rem;
-    max-width: 80%;
+    margin-left: 5rem;
+    max-width: 70%;
   }
 
   #tema5_second_section .vl {
     border: 0;
     border-left: 1px solid #cacaca;
-    height: 60rem;
+    height: 55rem;
     position: absolute;
     left: 50%;
     top: 27rem;
@@ -400,6 +455,10 @@ a:hover {
     justify-content: center;
     margin-left: 20rem;
     margin-right: 20rem;
+  }
+
+  .tal h1 {
+    color: orange;
   }
 }
 
@@ -457,6 +516,10 @@ a:hover {
   #tema3_fifth_section img,
   #tema4_third_section img {
     padding: 10px;
+  }
+
+  .tal h1 {
+    color: orange;
   }
 }
 
@@ -519,7 +582,8 @@ footer {
 
 /* On mouse-over  */
 .button:hover {
-  background-color: #5a7783;
+  background-color: orange;
+  /* background-color: #5a7783; */
 }
 
 .om_mig {
@@ -578,7 +642,8 @@ footer {
 
 /* On mouse-over  */
 .link:hover {
-  background-color: #5a7783;
+  /* background-color: #5a7783; */
+  background-color: orange;
   color: #eef3f4;
   border-radius: 10px;
 }
