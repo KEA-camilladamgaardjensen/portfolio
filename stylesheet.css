@@ -152,7 +152,7 @@ a:hover {
     z-index: 1;
   }
 
-  .index_h1 h1 {
+  #index_h1 h1 {
     margin-left: 15rem;
   }
 
@@ -358,14 +358,6 @@ a:hover {
     margin-right: 10rem;
   }
 
-  /* #tema3_fourth_section .button_prototype {
-    margin-left: 5rem;
-  } */
-
-  /* #tema3_fourth_section .button_pitch {
-    margin-left: 6rem;
-  } */
-
   #tema4_first_section {
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -426,7 +418,12 @@ a:hover {
     gap: 5px;
   }
 
-  #tema5_second_section img {
+  #tema5_second_section .section_wrapper img {
+    margin-left: 5rem;
+    max-width: 85%;
+  }
+
+  #tema5_second_section .section_wrapper1 img {
     margin-left: 5rem;
     max-width: 70%;
   }
