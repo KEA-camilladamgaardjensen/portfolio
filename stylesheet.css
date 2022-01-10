@@ -83,7 +83,7 @@ a {
 /* --------------------------------------- */
 /* farve på hover */
 a:hover {
-  color: orange;
+  color: rgb(255, 166, 0);
 }
 
 .banner ul {
@@ -117,9 +117,6 @@ a:hover {
     margin-left: 2rem;
   }
 
-  img {
-    padding: 10px;
-  }
   #index_first_section img {
     filter: grayscale(2);
     lighting-color: white;
@@ -129,13 +126,14 @@ a:hover {
     filter: grayscale(0);
   }
 
-  #index_second_section,
-  #om_fourth_section,
-  #tema2_third_section,
-  #tema3_fourth_section,
-  #tema4_fourth_section,
-  #tema5_second_section {
+  #index_second_section img,
+  #om_fourth_section img,
+  #tema2_third_section img,
+  #tema3_fourth_section img,
+  #tema4_fourth_section img,
+  #tema5_second_section img {
     padding-bottom: 30px;
+    padding: 10px;
   }
 }
 
@@ -152,6 +150,10 @@ a:hover {
     left: 47%;
     top: 15rem;
     z-index: 1;
+  }
+
+  .index_h1 h1 {
+    margin-left: 15rem;
   }
 
   #index_first_section {
@@ -207,6 +209,10 @@ a:hover {
     font-size: 4rem;
   }
 
+  #index_second_section h2 {
+    margin-left: 15rem;
+  }
+
   #om_first_section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -220,7 +226,7 @@ a:hover {
     display: flex;
     justify-content: left;
     margin-right: 5rem;
-    max-width: 90%;
+    max-width: 80%;
   }
 
   #om_first_section .tekst {
@@ -286,10 +292,6 @@ a:hover {
 
   #tema2_second_section {
     font-size: 2.5rem;
-  }
-
-  #tema2_second_section .section_wrapper {
-    margin-top: 2rem;
   }
 
   #tema2_third_section {
@@ -424,16 +426,6 @@ a:hover {
     gap: 5px;
   }
 
-  /* #tema5_second_section .button_pilot {
-    display: flex;
-    justify-content: center;
-    margin-right: 2rem;
-  } */
-  /* #tema5_second_section .button_redesign {
-    display: flex;
-    justify-content: center;
-  } */
-
   #tema5_second_section img {
     margin-left: 5rem;
     max-width: 70%;
@@ -458,7 +450,7 @@ a:hover {
   }
 
   .tal h1 {
-    color: orange;
+    color: rgb(255, 166, 0);
   }
 }
 
@@ -519,7 +511,7 @@ a:hover {
   }
 
   .tal h1 {
-    color: orange;
+    color: rgb(255, 166, 0);
   }
 }
 
@@ -561,31 +553,6 @@ footer {
   background-color: #354e57;
 }
 
-/* --------------------------------------- */
-/* button */
-
-.button {
-  background-color: #354e57;
-  /* background-color: #cacaca; */
-  border: none;
-  color: #eef3f4;
-  padding: 10px 40px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  font-family: "Abel", sans-serif;
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
-
-/* On mouse-over  */
-.button:hover {
-  background-color: orange;
-  /* background-color: #5a7783; */
-}
-
 .om_mig {
   border-radius: 10px;
 }
@@ -606,6 +573,29 @@ footer {
   border-radius: 10px;
 }
 
+/* --------------------------------------- */
+/* button */
+
+.button {
+  background-color: #354e57;
+  border: none;
+  color: #eef3f4;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  font-family: "Abel", sans-serif;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+/* On mouse-over  */
+.button:hover {
+  background-color: rgb(255, 166, 0);
+  /* background-color: #5a7783; */
+}
 .responsive {
   border-radius: 10px;
 }
@@ -643,7 +633,7 @@ footer {
 /* On mouse-over  */
 .link:hover {
   /* background-color: #5a7783; */
-  background-color: orange;
+  background-color: rgb(255, 166, 0);
   color: #eef3f4;
   border-radius: 10px;
 }
