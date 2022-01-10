@@ -296,6 +296,19 @@ a:hover {
 
   #tema2_third_section {
     display: grid;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+  }
+
+  #tema2_third_section img {
+    max-width: 90%;
+  }
+
+  #tema2_fourth_section {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 5rem;
     margin-bottom: 5rem;
@@ -303,7 +316,7 @@ a:hover {
     margin-right: 10rem;
   }
 
-  #tema2_third_section .tema2_billede1 {
+  #tema2_fourth_section .tema2_billede1 {
     margin-left: 5rem;
     max-width: 70%;
   }
@@ -342,7 +355,6 @@ a:hover {
 
   #tema3_third_section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     margin-top: 5rem;
     margin-bottom: 5rem;
     margin-left: 10rem;
